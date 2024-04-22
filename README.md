@@ -44,10 +44,18 @@ Zeppelin: http://IP_Anfitrion:8888
 Neo4j: http://IP_Anfitrion:7474
 ```
 
-Para implementar ejecute
+Para implementar el proyecto siga los siguientes pasos
+
+1. Clonar el repositorio por medio de la consola de linux
 ```
-  git clone https://github.com/lopezdar222/herramientas_big_data
-  cd herramientas_big_data
+git clone https://github.com/lopezdar222/herramientas_big_data
+```
+2. Cambiar de directorio a la carpeta del repositorio que acabamos de clonar
+```
+cd Big_data
+```
+3. Ejecutamos el contenedor de Docker, cabe resaltar que la "X" debe ser reemplazada por el numero de contenedor que desee ejecutar
+```
   sudo docker-compose -f docker-compose-vX.yml up -d
 ```
 
