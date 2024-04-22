@@ -21,11 +21,12 @@ Primero se debe verificar la interfaz de Docker, para ello se ejecutara el sigui
 sudo docker network ls
 ```
 Debe dar como salida una lista de las redes incluyendo el proyecto 
-![image](https://github.com/DavidVillamizar04/Big_data/assets/154456308/2097a108-ce05-4bc3-a67a-914233d4e368)
+![image](https://github.com/DavidVillamizar04/Big_data/assets/154456308/126b328e-1ed4-41a1-84f2-dee587d2597e)
+
 
 Ejecute `sudo docker network inspect` en la red (por ejemplo, `docker-hadoop-spark-hive_default`) para encontrar la IP en la que se publican las interfaces de hadoop. En este caso se usaria el siguiente comando
 ```
-sudo docker network inspect herramientasbigdata_default
+sudo docker network inspect bigdata_default
 ```
 ![image](https://github.com/DavidVillamizar04/Big_data/assets/154456308/f6d12c2f-8778-4de6-8d78-f0bb957b954a)
 
