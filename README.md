@@ -48,7 +48,7 @@ Para implementar el proyecto siga los siguientes pasos
 
 1. Clonar el repositorio por medio de la consola de linux
 ```
-git clone https://github.com/lopezdar222/herramientas_big_data
+git clone https://github.com/DavidVillamizar04/Big_data.git
 ```
 2. Cambiar de directorio a la carpeta del repositorio que acabamos de clonar
 ```
